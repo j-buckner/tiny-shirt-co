@@ -8,14 +8,20 @@ a {
 #AppWrapper {
   width: 100%;
   height: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex; 
+}
+
+#HeadingCanvasWrapper {
+  margin: auto;
+  /*width: 50%;*/
+}
+
+#StartBtnWrapper {
+  margin-top: 500px;
 }
 
 #StartBtn {
   margin: 0 auto; 
-  font-size: 21px;
+  font-size: 18px;
 }
 
 #StartBtn {

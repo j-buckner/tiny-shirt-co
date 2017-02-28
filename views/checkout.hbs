@@ -332,7 +332,7 @@
     <h4 class="ui dividing header">Billing Information</h4>
     <div class="field">
       <label>Card Type</label>
-      <div class="ui selection dropdown">
+      <div id="dropdown" class="ui selection dropdown">
         <input type="hidden" name="card[type]">
         <div class="default text">Type</div>
         <i class="dropdown icon"></i>
@@ -394,4 +394,5 @@
 
 <script type="text/javascript">
 $('select.dropdown').dropdown();
+$('#dropdown').dropdown();
 </script>
