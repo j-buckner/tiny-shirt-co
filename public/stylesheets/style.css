@@ -1,9 +1,19 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
+}
 
 a {
-  color: #00B7FE; }
+  color: #00B7FE; 
+}
+
+img {
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
 
 #AppWrapper {
   width: 100%;
@@ -12,11 +22,10 @@ a {
 
 #HeadingCanvasWrapper {
   margin: auto;
-  /*width: 50%;*/
 }
 
-#StartBtnWrapper {
-  margin-top: 500px;
+#ProductImage {
+  pointer-events:none;
 }
 
 #StartBtn {
