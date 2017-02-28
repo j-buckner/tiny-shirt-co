@@ -14,7 +14,7 @@ $('#CheckoutWrapper').hide();
 var canvas = document.querySelector("canvas");
 var ctx = canvas.getContext("2d"),
     dashLen = 200, dashOffset = dashLen, speed = 18,
-    txt = "tiny t-shirt co.", x = (window.innerWidth / 2) - 230, i = 0;
+    txt = "tiny shirt co.", x = (window.innerWidth / 2) - 200, i = 0;
 
 
 canvas.width = window.innerWidth;
