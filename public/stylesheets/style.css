@@ -3,6 +3,20 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
 }
 
+#Title {
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 90px;
+  color: #419bf4;
+}
+
+#SubTitle {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: #419bf4;
+}
+
 a {
   color: #00B7FE; 
 }
@@ -26,6 +40,14 @@ img {
 
 #ProductImage {
   pointer-events:none;
+}
+
+#StartBtnContainer {
+  position:absolute;
+  bottom:0;
+  margin-bottom:100px;
+  width:100%;
+  height:60px;
 }
 
 #StartBtn {
