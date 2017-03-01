@@ -32,7 +32,7 @@ ctx.strokeStyle = ctx.fillStyle = "#419bf4";
 
   if (dashOffset > 0) requestAnimationFrame(loop);             // animate
   else {
-    // ctx.fillText(txt[i], x, 90);                               // fill final letter
+    ctx.fillText(txt[i], x, 90);                               // fill final letter
     dashOffset = dashLen;                                      // prep next char
     x += ctx.measureText(txt[i++]).width + ctx.lineWidth * Math.random();
     ctx.setTransform(1, 0, 0, 1, 0, 3 * Math.random());         // random y-delta
@@ -58,7 +58,7 @@ setTimeout(function (){
   console.log('here4');
     if (dashOffset > 0) requestAnimationFrame(loop);             // animate
     else {
-      // ctx.fillText(txt[i], x, 90);                               // fill final letter
+      ctx.fillText(txt[i], x, 90);                               // fill final letter
       dashOffset = dashLen;                                      // prep next char
       x += ctx.measureText(txt[i++]).width + ctx.lineWidth * Math.random();
       ctx.setTransform(1, 0, 0, 1, 0, 3 * Math.random());         // random y-delta
