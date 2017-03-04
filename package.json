@@ -12,6 +12,7 @@
     "express": "~4.14.0",
     "hbs": "~4.0.1",
     "morgan": "~1.7.0",
+    "prismic.io": "^3.4.0",
     "semantic-ui": "^2.2.9",
     "serve-favicon": "~2.3.0"
   }
