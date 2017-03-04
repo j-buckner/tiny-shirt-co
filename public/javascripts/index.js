@@ -6,7 +6,7 @@ $('.autumn.leaf')
 ;
 
 function handleStartClicked() {
-  window.location.href = "/checkout";
+  window.location.href = "/shirts";
   // $('#AppWrapper').transition('fade right');
   // window.history.pushState('checkout', 'Checkout', '/checkout');
   // $('#CheckoutWrapper').fadeIn('slow');
